@@ -2,8 +2,6 @@ import 'package:get/get.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
-import '../modules/seting/bindings/seting_binding.dart';
-import '../modules/seting/views/seting_view.dart';
 
 part 'app_routes.dart';
 
@@ -18,10 +16,6 @@ class AppPages {
       page: () => const HomeView(),
       binding: HomeBinding(),
     ),
-    GetPage(
-      name: _Paths.SETING,
-      page: () => const SetingView(),
-      binding: SetingBinding(),
-    ),
+   
   ];
 }
